@@ -1,0 +1,13 @@
+VisionCheck AI — Judge Testing Instructions
+
+1. Install Python 3.11+.
+2. Run: pip install -r requirements.txt
+3. Run: python visioncheck_gui_v5.py
+4. Click Select Image and choose a supported image.
+5. Review Sharpness, Brightness, Contrast, Exposure, Resolution, VisionCheck Score, final quality status, and recommendation.
+6. Drag a blue point on the Interactive Quality Control Web. Confirm the current image is re-evaluated immediately.
+7. Click Reset Defaults.
+8. Select a second image with a different quality problem and compare the changed parameter values/status.
+9. For batch evaluation, run: python batch_evaluate.py
+
+Default thresholds are empirical starting values; the image-quality metrics themselves are mathematically derived. See THRESHOLD_JUSTIFICATION.md.

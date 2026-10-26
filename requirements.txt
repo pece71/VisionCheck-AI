@@ -1,0 +1,6 @@
+opencv-python==5.0.0.93
+numpy==2.5.4
+Pillow==13.0.0
+matplotlib==3.11.2
+boto3==1.43.74
+requests==2.32.5
